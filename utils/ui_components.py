@@ -225,13 +225,13 @@ def get_plotly_theme():
             gridcolor="#1f2937",
             linecolor="#374151",
             tickfont=dict(color="#9ca3af"),
-            title_font=dict(color="#d1d5db")
+            title=dict(font=dict(color="#d1d5db"))
         ),
         yaxis=dict(
             gridcolor="#1f2937",
             linecolor="#374151",
             tickfont=dict(color="#9ca3af"),
-            title_font=dict(color="#d1d5db")
+            title=dict(font=dict(color="#d1d5db"))
         ),
         legend=dict(
             bgcolor="rgba(17,24,39,0.8)",

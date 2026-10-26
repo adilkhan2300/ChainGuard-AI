@@ -1,0 +1,26 @@
+supplier_id,supplier_name,supplier_location,material_categories,contractual_lead_time_days,supplier_capacity,quality_rating,financial_risk_score,supplier_status
+SUP-001,Apex Microelectronics Corp,"Hsinchu, Taiwan","Electronics, Semiconductors",35,120000,4.6,0.15,Active
+SUP-002,Bavaria Precision Alloys,"Munich, Germany","Metals, Specialty Steel",28,85000,4.8,0.1,Active
+SUP-003,Pacific Rim Polymers,"Rayong, Thailand","Plastics, Polymers",21,150000,3.9,0.32,Active
+SUP-004,Great Lakes Fasteners,"Cleveland, USA","Hardware, Fasteners",14,250000,4.7,0.08,Active
+SUP-005,Shenzhen Opto-Tech Ltd,"Shenzhen, China","Optics, Displays",30,95000,4.1,0.28,Active
+SUP-006,Nordic Sensor Systems,"Gothenburg, Sweden","Sensors, Actuators",25,60000,4.9,0.05,Active
+SUP-007,Bajaj Wire & Cable,"Pune, India","Wiring, Connectors",18,180000,4.2,0.22,Active
+SUP-008,Monterrey Stamping & Castings,"Monterrey, Mexico","Metals, Enclosures",16,110000,4.3,0.18,Active
+SUP-009,Kyoto Advanced Ceramics,"Kyoto, Japan","Ceramics, Insulation",32,50000,4.9,0.06,Active
+SUP-010,Saigon Packaging Solutions,"Ho Chi Minh, Vietnam","Packaging, Cardboard",12,300000,4.0,0.25,Active
+SUP-011,Rhine Chemical Specialties,"Frankfurt, Germany","Chemicals, Adhesives",24,75000,4.5,0.12,Active
+SUP-012,Delta Power Electronics,"Seoul, South Korea","Power Supplies, Converters",28,90000,4.4,0.14,Active
+SUP-013,Atlas Rubber & Gaskets,"Akron, USA","Gaskets, Seals",15,140000,3.8,0.4,Under Review
+SUP-014,Wuhan Semiconductor Co,"Wuhan, China","Semiconductors, ICs",42,80000,3.7,0.45,Elevated Risk
+SUP-015,Lyon Fluid Systems,"Lyon, France","Hydraulics, Tubing",26,65000,4.6,0.11,Active
+SUP-016,Sunbelt Copper & Brass,"Phoenix, USA","Metals, Non-Ferrous",17,130000,4.2,0.19,Active
+SUP-017,Taichung Precision Tooling,"Taichung, Taiwan","Tooling, Hardware",22,90000,4.5,0.13,Active
+SUP-018,Penang Circuit Assembly,"Penang, Malaysia","PCBs, SMT Assembly",27,105000,4.3,0.2,Active
+SUP-019,Katowice Industrial Composites,"Katowice, Poland","Composites, Resins",20,85000,4.4,0.16,Active
+SUP-020,Sao Paulo Bio-Polymers,"Campinas, Brazil","Plastics, Bio-Resins",30,70000,3.6,0.48,Elevated Risk
+SUP-021,Osaka Battery & Cell Corp,"Osaka, Japan","Batteries, Energy Storage",35,75000,4.8,0.09,Active
+SUP-022,Bristol Thermal Management,"Bristol, UK","Heatsinks, Cooling",21,95000,4.5,0.15,Active
+SUP-023,Guadalajara Wire Harnesses,"Guadalajara, Mexico","Harnesses, Looms",15,160000,4.1,0.26,Active
+SUP-024,Antwerp Logistics Packaging,"Antwerp, Belgium","Packaging, Crates",10,220000,4.7,0.07,Active
+SUP-025,Vanguard Resistors & Passives,Singapore,"Passives, Capacitors",19,350000,4.6,0.11,Active

@@ -1,0 +1,141 @@
+shipment_id,purchase_order_id,carrier_id,transport_mode,origin,destination,shipment_date,estimated_arrival_date,actual_arrival_date,shipment_status,shipping_cost
+SHP-5001,PO-1001,CAR-06,Rail,"Bristol, UK","PL-NORTH (Chicago, USA)",2026-08-05,2026-08-19,2026-08-17,Delivered On-Time,350.0
+SHP-5002,PO-1002,CAR-03,Ocean,"Akron, USA","PL-NORTH (Chicago, USA)",2026-05-02,2026-05-30,2026-06-08,Delivered Late,350.0
+SHP-5003,PO-1003,CAR-05,Air,"Ho Chi Minh, Vietnam","PL-SOUTH (Atlanta, USA)",2026-05-04,2026-05-11,2026-05-28,Delivered Late,793.48
+SHP-5004,PO-1004,CAR-03,Ocean,"Antwerp, Belgium","PL-NORTH (Chicago, USA)",2026-01-31,2026-02-26,2026-02-25,Delivered On-Time,350.0
+SHP-5005,PO-1005,CAR-07,Road,"Campinas, Brazil","PL-NORTH (Chicago, USA)",2026-05-14,2026-05-18,2026-05-27,Delivered Late,350.0
+SHP-5006,PO-1006,CAR-06,Rail,"Gothenburg, Sweden","PL-SOUTH (Atlanta, USA)",2026-08-03,2026-08-19,2026-08-23,Delivered Late,350.0
+SHP-5007,PO-1007,CAR-05,Air,"Hsinchu, Taiwan","PL-EAST (Rotterdam, EU)",2026-03-30,2026-04-06,2026-04-06,Delivered On-Time,350.0
+SHP-5008,PO-1008,CAR-03,Ocean,"Kyoto, Japan","PL-NORTH (Chicago, USA)",2026-01-27,2026-02-19,2026-02-17,Delivered On-Time,350.0
+SHP-5009,PO-1009,CAR-02,Air,"Seoul, South Korea","PL-SOUTH (Atlanta, USA)",2026-02-16,2026-02-23,2026-03-07,Delivered Late,350.0
+SHP-5010,PO-1010,CAR-04,Road,"Gothenburg, Sweden","PL-NORTH (Chicago, USA)",2026-09-26,2026-09-29,,In-Transit On-Schedule,394.74
+SHP-5011,PO-1011,CAR-05,Air,"Gothenburg, Sweden","PL-NORTH (Chicago, USA)",2026-02-04,2026-02-10,2026-02-27,Delivered Late,688.68
+SHP-5012,PO-1012,CAR-03,Ocean,"Akron, USA","PL-SOUTH (Atlanta, USA)",2026-03-15,2026-04-26,2026-04-24,Delivered On-Time,350.0
+SHP-5013,PO-1013,CAR-07,Road,"Gothenburg, Sweden","PL-EAST (Rotterdam, EU)",2026-03-03,2026-03-05,2026-03-03,Delivered On-Time,547.9
+SHP-5014,PO-1014,CAR-07,Road,"Seoul, South Korea","PL-NORTH (Chicago, USA)",2026-09-27,2026-09-30,,In-Transit On-Schedule,350.0
+SHP-5015,PO-1015,CAR-07,Road,"Hsinchu, Taiwan","PL-NORTH (Chicago, USA)",2026-07-01,2026-07-04,2026-07-22,Delivered Late,350.0
+SHP-5016,PO-1016,CAR-05,Air,"Hsinchu, Taiwan","PL-EAST (Rotterdam, EU)",2026-09-20,2026-09-23,,In-Transit On-Schedule,350.0
+SHP-5017,PO-1017,CAR-02,Air,"Gothenburg, Sweden","PL-SOUTH (Atlanta, USA)",2026-04-10,2026-04-13,2026-04-12,Delivered On-Time,350.0
+SHP-5018,PO-1018,CAR-01,Ocean,"Pune, India","PL-EAST (Rotterdam, EU)",2026-08-02,2026-08-28,2026-09-02,Delivered Late,364.19
+SHP-5019,PO-1019,CAR-04,Road,"Lyon, France","PL-NORTH (Chicago, USA)",2026-09-25,2026-09-29,,In-Transit On-Schedule,350.0
+SHP-5020,PO-1020,CAR-02,Air,"Seoul, South Korea","PL-SOUTH (Atlanta, USA)",2026-02-23,2026-03-02,2026-02-28,Delivered On-Time,1441.61
+SHP-5021,PO-1021,CAR-04,Road,"Osaka, Japan","PL-SOUTH (Atlanta, USA)",2026-07-09,2026-07-14,2026-07-12,Delivered On-Time,350.0
+SHP-5022,PO-1022,CAR-03,Ocean,"Penang, Malaysia","PL-SOUTH (Atlanta, USA)",2026-06-19,2026-07-15,2026-07-15,Delivered On-Time,350.0
+SHP-5023,PO-1023,CAR-03,Ocean,"Taichung, Taiwan","PL-SOUTH (Atlanta, USA)",2026-08-28,2026-09-28,,In-Transit On-Schedule,350.0
+SHP-5024,PO-1024,CAR-04,Road,"Hsinchu, Taiwan","PL-EAST (Rotterdam, EU)",2026-09-08,2026-09-10,2026-09-21,Delivered Late,350.0
+SHP-5025,PO-1025,CAR-02,Air,Singapore,"PL-SOUTH (Atlanta, USA)",2026-08-04,2026-08-10,2026-08-09,Delivered On-Time,350.0
+SHP-5026,PO-1026,CAR-06,Rail,"Shenzhen, China","PL-NORTH (Chicago, USA)",2026-08-01,2026-08-13,2026-08-23,Delivered Late,350.0
+SHP-5027,PO-1027,CAR-01,Ocean,"Rayong, Thailand","PL-EAST (Rotterdam, EU)",2026-01-27,2026-02-19,2026-02-19,Delivered On-Time,471.32
+SHP-5028,PO-1028,CAR-01,Ocean,"Ho Chi Minh, Vietnam","PL-EAST (Rotterdam, EU)",2026-05-29,2026-07-03,2026-07-02,Delivered On-Time,350.0
+SHP-5029,PO-1029,CAR-03,Ocean,"Seoul, South Korea","PL-NORTH (Chicago, USA)",2026-09-03,2026-10-01,,In-Transit On-Schedule,350.0
+SHP-5030,PO-1030,CAR-02,Air,"Taichung, Taiwan","PL-NORTH (Chicago, USA)",2026-04-26,2026-04-29,2026-04-28,Delivered On-Time,350.0
+SHP-5031,PO-1031,CAR-07,Road,"Monterrey, Mexico","PL-EAST (Rotterdam, EU)",2026-08-30,2026-09-05,2026-09-22,Delivered Late,350.0
+SHP-5032,PO-1032,CAR-06,Rail,"Pune, India","PL-EAST (Rotterdam, EU)",2026-09-05,2026-09-17,2026-09-26,Delivered Late,350.0
+SHP-5033,PO-1033,CAR-01,Ocean,"Antwerp, Belgium","PL-NORTH (Chicago, USA)",2026-07-31,2026-09-03,2026-09-01,Delivered On-Time,350.0
+SHP-5034,PO-1034,CAR-01,Ocean,"Shenzhen, China","PL-SOUTH (Atlanta, USA)",2026-04-03,2026-05-08,2026-05-08,Delivered On-Time,350.0
+SHP-5035,PO-1035,CAR-03,Ocean,"Gothenburg, Sweden","PL-NORTH (Chicago, USA)",2026-02-17,2026-03-12,2026-03-26,Delivered Late,350.0
+SHP-5036,PO-1036,CAR-01,Ocean,"Gothenburg, Sweden","PL-SOUTH (Atlanta, USA)",2026-02-28,2026-04-04,2026-04-02,Delivered On-Time,350.0
+SHP-5037,PO-1037,CAR-07,Road,"Gothenburg, Sweden","PL-NORTH (Chicago, USA)",2026-02-04,2026-02-06,2026-02-05,Delivered On-Time,476.65
+SHP-5038,PO-1038,CAR-05,Air,"Gothenburg, Sweden","PL-EAST (Rotterdam, EU)",2026-09-04,2026-09-09,2026-09-16,Delivered Late,350.0
+SHP-5039,PO-1039,CAR-07,Road,"Cleveland, USA","PL-NORTH (Chicago, USA)",2026-06-29,2026-07-03,2026-07-01,Delivered On-Time,350.0
+SHP-5040,PO-1040,CAR-02,Air,"Hsinchu, Taiwan","PL-EAST (Rotterdam, EU)",2026-03-05,2026-03-11,2026-03-09,Delivered On-Time,391.67
+SHP-5041,PO-1041,CAR-04,Road,Singapore,"PL-NORTH (Chicago, USA)",2026-05-11,2026-05-16,2026-05-16,Delivered On-Time,350.0
+SHP-5042,PO-1042,CAR-04,Road,"Munich, Germany","PL-NORTH (Chicago, USA)",2026-06-09,2026-06-13,2026-06-13,Delivered On-Time,350.0
+SHP-5043,PO-1043,CAR-04,Road,"Seoul, South Korea","PL-NORTH (Chicago, USA)",2026-05-23,2026-05-25,2026-05-23,Delivered On-Time,350.0
+SHP-5044,PO-1044,CAR-04,Road,"Monterrey, Mexico","PL-NORTH (Chicago, USA)",2026-09-17,2026-09-21,,In-Transit On-Schedule,435.28
+SHP-5045,PO-1045,CAR-06,Rail,"Lyon, France","PL-SOUTH (Atlanta, USA)",2026-04-04,2026-04-22,2026-04-22,Delivered On-Time,410.22
+SHP-5046,PO-1046,CAR-07,Road,"Akron, USA","PL-SOUTH (Atlanta, USA)",2026-05-02,2026-05-05,2026-05-21,Delivered Late,350.0
+SHP-5047,PO-1047,CAR-07,Road,"Shenzhen, China","PL-SOUTH (Atlanta, USA)",2026-09-30,2026-10-03,,In-Transit On-Schedule,350.0
+SHP-5048,PO-1048,CAR-07,Road,"Penang, Malaysia","PL-EAST (Rotterdam, EU)",2026-08-07,2026-08-12,2026-08-12,Delivered On-Time,350.0
+SHP-5049,PO-1049,CAR-03,Ocean,"Bristol, UK","PL-SOUTH (Atlanta, USA)",2026-01-08,2026-02-14,2026-02-14,Delivered On-Time,350.0
+SHP-5050,PO-1050,CAR-01,Ocean,"Cleveland, USA","PL-SOUTH (Atlanta, USA)",2026-06-24,2026-07-25,2026-08-11,Delivered Late,350.0
+SHP-5051,PO-1051,CAR-03,Ocean,"Penang, Malaysia","PL-EAST (Rotterdam, EU)",2026-03-03,2026-04-13,2026-04-13,Delivered On-Time,350.0
+SHP-5052,PO-1052,CAR-01,Ocean,"Seoul, South Korea","PL-SOUTH (Atlanta, USA)",2026-05-19,2026-06-16,2026-06-14,Delivered On-Time,401.0
+SHP-5053,PO-1053,CAR-04,Road,"Hsinchu, Taiwan","PL-EAST (Rotterdam, EU)",2026-08-17,2026-08-21,2026-08-20,Delivered On-Time,350.0
+SHP-5054,PO-1054,CAR-04,Road,"Cleveland, USA","PL-SOUTH (Atlanta, USA)",2026-03-05,2026-03-11,2026-03-21,Delivered Late,350.0
+SHP-5055,PO-1055,CAR-07,Road,"Pune, India","PL-EAST (Rotterdam, EU)",2026-02-05,2026-02-11,2026-02-11,Delivered On-Time,350.0
+SHP-5056,PO-1056,CAR-06,Rail,"Frankfurt, Germany","PL-NORTH (Chicago, USA)",2026-07-13,2026-07-27,2026-07-25,Delivered On-Time,350.0
+SHP-5057,PO-1057,CAR-03,Ocean,"Seoul, South Korea","PL-EAST (Rotterdam, EU)",2026-01-09,2026-02-19,2026-02-18,Delivered On-Time,350.0
+SHP-5058,PO-1058,CAR-06,Rail,"Shenzhen, China","PL-NORTH (Chicago, USA)",2026-07-13,2026-08-02,2026-08-11,Delivered Late,350.0
+SHP-5059,PO-1059,CAR-01,Ocean,"Lyon, France","PL-SOUTH (Atlanta, USA)",2026-05-04,2026-06-01,2026-05-30,Delivered On-Time,350.0
+SHP-5060,PO-1060,CAR-02,Air,"Cleveland, USA","PL-EAST (Rotterdam, EU)",2026-06-21,2026-06-25,2026-06-25,Delivered On-Time,1504.17
+SHP-5061,PO-1061,CAR-01,Ocean,"Ho Chi Minh, Vietnam","PL-SOUTH (Atlanta, USA)",2026-05-02,2026-06-12,2026-06-12,Delivered On-Time,350.0
+SHP-5062,PO-1062,CAR-07,Road,"Phoenix, USA","PL-SOUTH (Atlanta, USA)",2026-03-24,2026-03-27,2026-03-26,Delivered On-Time,492.86
+SHP-5063,PO-1063,CAR-05,Air,"Pune, India","PL-NORTH (Chicago, USA)",2026-05-11,2026-05-16,2026-05-15,Delivered On-Time,350.0
+SHP-5064,PO-1064,CAR-07,Road,"Gothenburg, Sweden","PL-SOUTH (Atlanta, USA)",2026-04-22,2026-04-26,2026-04-25,Delivered On-Time,350.0
+SHP-5065,PO-1065,CAR-05,Air,"Wuhan, China","PL-EAST (Rotterdam, EU)",2026-05-19,2026-05-26,2026-05-26,Delivered On-Time,1377.68
+SHP-5066,PO-1066,CAR-04,Road,"Monterrey, Mexico","PL-NORTH (Chicago, USA)",2026-05-15,2026-05-21,2026-05-29,Delivered Late,350.0
+SHP-5067,PO-1067,CAR-04,Road,"Cleveland, USA","PL-NORTH (Chicago, USA)",2026-07-14,2026-07-17,2026-07-15,Delivered On-Time,350.0
+SHP-5068,PO-1068,CAR-04,Road,"Campinas, Brazil","PL-NORTH (Chicago, USA)",2026-05-01,2026-05-06,2026-05-13,Delivered Late,350.0
+SHP-5069,PO-1069,CAR-01,Ocean,"Akron, USA","PL-NORTH (Chicago, USA)",2026-07-18,2026-08-19,2026-09-05,Delivered Late,350.0
+SHP-5070,PO-1070,CAR-04,Road,"Katowice, Poland","PL-NORTH (Chicago, USA)",2026-05-12,2026-05-17,2026-05-24,Delivered Late,350.0
+SHP-5071,PO-1071,CAR-07,Road,"Cleveland, USA","PL-SOUTH (Atlanta, USA)",2026-04-27,2026-05-03,2026-05-02,Delivered On-Time,442.24
+SHP-5072,PO-1072,CAR-01,Ocean,"Gothenburg, Sweden","PL-EAST (Rotterdam, EU)",2026-06-16,2026-07-28,2026-08-15,Delivered Late,350.0
+SHP-5073,PO-1073,CAR-04,Road,"Seoul, South Korea","PL-EAST (Rotterdam, EU)",2026-07-11,2026-07-17,2026-07-16,Delivered On-Time,350.0
+SHP-5074,PO-1074,CAR-04,Road,"Gothenburg, Sweden","PL-EAST (Rotterdam, EU)",2026-03-20,2026-03-26,2026-03-24,Delivered On-Time,350.0
+SHP-5075,PO-1075,CAR-05,Air,"Gothenburg, Sweden","PL-EAST (Rotterdam, EU)",2026-08-06,2026-08-11,2026-08-09,Delivered On-Time,507.28
+SHP-5076,PO-1076,CAR-04,Road,"Campinas, Brazil","PL-SOUTH (Atlanta, USA)",2026-06-21,2026-06-23,2026-07-09,Delivered Late,350.0
+SHP-5077,PO-1077,CAR-01,Ocean,"Gothenburg, Sweden","PL-NORTH (Chicago, USA)",2026-06-23,2026-08-04,2026-08-03,Delivered On-Time,350.0
+SHP-5078,PO-1078,CAR-02,Air,"Taichung, Taiwan","PL-EAST (Rotterdam, EU)",2026-03-29,2026-04-01,2026-03-31,Delivered On-Time,350.0
+SHP-5079,PO-1079,CAR-06,Rail,"Kyoto, Japan","PL-EAST (Rotterdam, EU)",2026-07-16,2026-07-28,2026-08-05,Delivered Late,350.0
+SHP-5080,PO-1080,CAR-02,Air,"Munich, Germany","PL-SOUTH (Atlanta, USA)",2026-08-15,2026-08-18,2026-08-18,Delivered On-Time,350.0
+SHP-5081,PO-1081,CAR-04,Road,"Cleveland, USA","PL-SOUTH (Atlanta, USA)",2026-04-07,2026-04-09,2026-04-09,Delivered On-Time,350.0
+SHP-5082,PO-1082,CAR-03,Ocean,"Guadalajara, Mexico","PL-SOUTH (Atlanta, USA)",2026-09-10,2026-10-15,,In-Transit On-Schedule,350.0
+SHP-5083,PO-1083,CAR-04,Road,"Bristol, UK","PL-SOUTH (Atlanta, USA)",2026-03-15,2026-03-18,2026-03-16,Delivered On-Time,350.0
+SHP-5084,PO-1084,CAR-06,Rail,Singapore,"PL-NORTH (Chicago, USA)",2026-03-27,2026-04-12,2026-04-17,Delivered Late,449.09
+SHP-5085,PO-1085,CAR-03,Ocean,"Cleveland, USA","PL-EAST (Rotterdam, EU)",2026-07-27,2026-09-06,2026-09-05,Delivered On-Time,350.0
+SHP-5086,PO-1086,CAR-04,Road,"Penang, Malaysia","PL-SOUTH (Atlanta, USA)",2026-06-07,2026-06-11,2026-06-09,Delivered On-Time,547.89
+SHP-5087,PO-1087,CAR-01,Ocean,"Ho Chi Minh, Vietnam","PL-NORTH (Chicago, USA)",2026-04-28,2026-05-25,2026-05-24,Delivered On-Time,350.0
+SHP-5088,PO-1088,CAR-01,Ocean,"Frankfurt, Germany","PL-SOUTH (Atlanta, USA)",2026-02-16,2026-03-30,2026-03-28,Delivered On-Time,350.0
+SHP-5089,PO-1089,CAR-05,Air,"Pune, India","PL-SOUTH (Atlanta, USA)",2026-06-06,2026-06-10,2026-06-10,Delivered On-Time,502.62
+SHP-5090,PO-1090,CAR-03,Ocean,"Seoul, South Korea","PL-NORTH (Chicago, USA)",2026-08-08,2026-09-07,2026-09-13,Delivered Late,350.0
+SHP-5091,PO-1091,CAR-04,Road,"Gothenburg, Sweden","PL-SOUTH (Atlanta, USA)",2026-09-08,2026-09-13,2026-09-20,Delivered Late,350.0
+SHP-5092,PO-1092,CAR-05,Air,"Gothenburg, Sweden","PL-NORTH (Chicago, USA)",2026-06-20,2026-06-25,2026-06-25,Delivered On-Time,770.57
+SHP-5093,PO-1093,CAR-04,Road,"Hsinchu, Taiwan","PL-EAST (Rotterdam, EU)",2026-06-12,2026-06-16,2026-06-15,Delivered On-Time,350.0
+SHP-5094,PO-1094,CAR-07,Road,"Monterrey, Mexico","PL-NORTH (Chicago, USA)",2026-04-16,2026-04-19,2026-04-17,Delivered On-Time,350.0
+SHP-5095,PO-1095,CAR-02,Air,"Rayong, Thailand","PL-EAST (Rotterdam, EU)",2026-09-20,2026-09-26,,In-Transit On-Schedule,350.0
+SHP-5096,PO-1096,CAR-07,Road,"Penang, Malaysia","PL-NORTH (Chicago, USA)",2026-05-14,2026-05-17,2026-05-17,Delivered On-Time,350.0
+SHP-5097,PO-1097,CAR-04,Road,"Frankfurt, Germany","PL-NORTH (Chicago, USA)",2026-07-26,2026-07-31,2026-07-29,Delivered On-Time,350.0
+SHP-5098,PO-1098,CAR-04,Road,"Hsinchu, Taiwan","PL-EAST (Rotterdam, EU)",2026-05-18,2026-05-24,2026-05-22,Delivered On-Time,547.96
+SHP-5099,PO-1099,CAR-04,Road,"Rayong, Thailand","PL-NORTH (Chicago, USA)",2026-04-23,2026-04-25,2026-04-25,Delivered On-Time,350.0
+SHP-5100,PO-1100,CAR-02,Air,"Monterrey, Mexico","PL-SOUTH (Atlanta, USA)",2026-03-27,2026-04-01,2026-03-31,Delivered On-Time,350.0
+SHP-5101,PO-1101,CAR-02,Air,"Katowice, Poland","PL-EAST (Rotterdam, EU)",2026-02-20,2026-02-25,2026-02-25,Delivered On-Time,1478.2
+SHP-5102,PO-1102,CAR-02,Air,"Kyoto, Japan","PL-EAST (Rotterdam, EU)",2026-06-06,2026-06-10,2026-06-08,Delivered On-Time,350.0
+SHP-5103,PO-1103,CAR-01,Ocean,Singapore,"PL-EAST (Rotterdam, EU)",2026-03-24,2026-04-21,2026-04-20,Delivered On-Time,350.0
+SHP-5104,PO-1104,CAR-06,Rail,"Hsinchu, Taiwan","PL-SOUTH (Atlanta, USA)",2026-02-22,2026-03-14,2026-03-24,Delivered Late,350.0
+SHP-5105,PO-1105,CAR-03,Ocean,"Frankfurt, Germany","PL-SOUTH (Atlanta, USA)",2026-06-20,2026-07-17,2026-07-26,Delivered Late,350.0
+SHP-5106,PO-1106,CAR-05,Air,"Rayong, Thailand","PL-SOUTH (Atlanta, USA)",2026-04-20,2026-04-24,2026-04-24,Delivered On-Time,350.0
+SHP-5107,PO-1107,CAR-01,Ocean,"Ho Chi Minh, Vietnam","PL-SOUTH (Atlanta, USA)",2026-08-06,2026-08-31,2026-09-04,Delivered Late,350.0
+SHP-5108,PO-1108,CAR-03,Ocean,"Guadalajara, Mexico","PL-NORTH (Chicago, USA)",2026-01-21,2026-02-19,2026-03-06,Delivered Late,350.0
+SHP-5109,PO-1109,CAR-03,Ocean,"Hsinchu, Taiwan","PL-SOUTH (Atlanta, USA)",2026-02-07,2026-03-17,2026-03-15,Delivered On-Time,350.0
+SHP-5110,PO-1110,CAR-01,Ocean,"Cleveland, USA","PL-NORTH (Chicago, USA)",2026-05-03,2026-06-01,2026-06-09,Delivered Late,350.0
+SHP-5111,PO-1111,CAR-04,Road,"Seoul, South Korea","PL-NORTH (Chicago, USA)",2026-02-13,2026-02-18,2026-02-17,Delivered On-Time,397.43
+SHP-5112,PO-1112,CAR-06,Rail,"Taichung, Taiwan","PL-SOUTH (Atlanta, USA)",2026-03-08,2026-03-23,2026-03-22,Delivered On-Time,350.0
+SHP-5113,PO-1113,CAR-05,Air,"Kyoto, Japan","PL-SOUTH (Atlanta, USA)",2026-02-21,2026-02-26,2026-03-11,Delivered Late,350.0
+SHP-5114,PO-1114,CAR-06,Rail,"Rayong, Thailand","PL-SOUTH (Atlanta, USA)",2026-03-15,2026-03-27,2026-03-27,Delivered On-Time,350.0
+SHP-5115,PO-1115,CAR-03,Ocean,"Shenzhen, China","PL-SOUTH (Atlanta, USA)",2026-09-01,2026-10-09,,In-Transit On-Schedule,350.0
+SHP-5116,PO-1116,CAR-01,Ocean,"Cleveland, USA","PL-EAST (Rotterdam, EU)",2026-06-07,2026-07-14,2026-07-14,Delivered On-Time,371.4
+SHP-5117,PO-1117,CAR-02,Air,"Taichung, Taiwan","PL-SOUTH (Atlanta, USA)",2026-03-21,2026-03-26,2026-04-03,Delivered Late,1548.12
+SHP-5118,PO-1118,CAR-05,Air,Singapore,"PL-SOUTH (Atlanta, USA)",2026-08-10,2026-08-15,2026-08-13,Delivered On-Time,366.75
+SHP-5119,PO-1119,CAR-03,Ocean,"Cleveland, USA","PL-SOUTH (Atlanta, USA)",2026-07-03,2026-08-12,2026-08-12,Delivered On-Time,350.0
+SHP-5120,PO-1120,CAR-06,Rail,"Akron, USA","PL-EAST (Rotterdam, EU)",2026-04-30,2026-05-17,2026-05-30,Delivered Late,350.0
+SHP-5121,PO-1121,CAR-02,Air,"Pune, India","PL-EAST (Rotterdam, EU)",2026-02-13,2026-02-16,2026-02-15,Delivered On-Time,350.0
+SHP-5122,PO-1122,CAR-02,Air,"Cleveland, USA","PL-NORTH (Chicago, USA)",2026-03-25,2026-03-29,2026-04-04,Delivered Late,603.79
+SHP-5123,PO-1123,CAR-04,Road,"Penang, Malaysia","PL-SOUTH (Atlanta, USA)",2026-04-09,2026-04-14,2026-04-12,Delivered On-Time,350.0
+SHP-5124,PO-1124,CAR-06,Rail,"Penang, Malaysia","PL-SOUTH (Atlanta, USA)",2026-02-12,2026-02-25,2026-03-07,Delivered Late,350.0
+SHP-5125,PO-1125,CAR-03,Ocean,"Seoul, South Korea","PL-EAST (Rotterdam, EU)",2026-08-15,2026-09-16,2026-10-01,Delivered Late,350.0
+SHP-5126,PO-1126,CAR-06,Rail,Singapore,"PL-NORTH (Chicago, USA)",2026-05-14,2026-05-31,2026-06-08,Delivered Late,350.0
+SHP-5127,PO-1127,CAR-07,Road,"Ho Chi Minh, Vietnam","PL-SOUTH (Atlanta, USA)",2026-01-24,2026-01-27,2026-02-12,Delivered Late,350.0
+SHP-5128,PO-1128,CAR-06,Rail,"Cleveland, USA","PL-EAST (Rotterdam, EU)",2026-05-20,2026-05-31,2026-05-30,Delivered On-Time,350.0
+SHP-5129,PO-1129,CAR-07,Road,"Munich, Germany","PL-SOUTH (Atlanta, USA)",2026-06-12,2026-06-15,2026-07-03,Delivered Late,350.0
+SHP-5130,PO-1130,CAR-04,Road,"Penang, Malaysia","PL-EAST (Rotterdam, EU)",2026-02-10,2026-02-15,2026-02-14,Delivered On-Time,350.0
+SHP-5131,PO-1131,CAR-02,Air,"Lyon, France","PL-NORTH (Chicago, USA)",2026-09-11,2026-09-14,2026-09-21,Delivered Late,1360.15
+SHP-5132,PO-1132,CAR-06,Rail,"Katowice, Poland","PL-SOUTH (Atlanta, USA)",2026-06-25,2026-07-06,2026-07-22,Delivered Late,350.0
+SHP-5133,PO-1133,CAR-02,Air,"Seoul, South Korea","PL-EAST (Rotterdam, EU)",2026-06-21,2026-06-24,2026-07-05,Delivered Late,537.01
+SHP-5134,PO-1134,CAR-06,Rail,Singapore,"PL-EAST (Rotterdam, EU)",2026-06-24,2026-07-09,2026-07-09,Delivered On-Time,350.0
+SHP-5135,PO-1135,CAR-05,Air,"Akron, USA","PL-SOUTH (Atlanta, USA)",2026-05-03,2026-05-07,2026-05-05,Delivered On-Time,526.45
+SHP-5136,PO-1136,CAR-07,Road,"Munich, Germany","PL-NORTH (Chicago, USA)",2026-05-07,2026-05-12,2026-05-10,Delivered On-Time,350.0
+SHP-5137,PO-1137,CAR-03,Ocean,"Antwerp, Belgium","PL-EAST (Rotterdam, EU)",2026-07-24,2026-09-01,2026-09-01,Delivered On-Time,350.0
+SHP-5138,PO-1138,CAR-04,Road,"Antwerp, Belgium","PL-NORTH (Chicago, USA)",2026-07-17,2026-07-20,2026-07-20,Delivered On-Time,350.0
+SHP-5139,PO-1139,CAR-02,Air,"Antwerp, Belgium","PL-EAST (Rotterdam, EU)",2026-05-30,2026-06-02,2026-06-02,Delivered On-Time,501.46
+SHP-5140,PO-1140,CAR-04,Road,"Munich, Germany","PL-SOUTH (Atlanta, USA)",2026-09-07,2026-09-13,2026-09-19,Delivered Late,350.0

@@ -48,14 +48,14 @@ def main():
     with st.sidebar:
         st.markdown("""
         <div style="text-align: center; margin-bottom: 12px; margin-top: 5px;">
-            <div style="font-size: 1.8rem; font-weight: 800; background: linear-gradient(135deg, #60a5fa 0%, #a78bfa 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">
+            <div style="font-size: 1.8rem; font-weight: 800; background: linear-gradient(135deg, #1e40af 0%, #4338ca 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">
                 🛡️ ChainGuard AI
             </div>
-            <div style="font-size: 0.78rem; color: #9ca3af; text-transform: uppercase; letter-spacing: 0.08em; font-weight: 600;">
+            <div style="font-size: 0.78rem; color: #64748b; text-transform: uppercase; letter-spacing: 0.08em; font-weight: 600;">
                 Supply Chain Risk & Resilience
             </div>
         </div>
-        <hr style="border: 0; height: 1px; background: #374151; margin-bottom: 18px;" />
+        <hr style="border: 0; height: 1px; background: #e2e8f0; margin-bottom: 18px;" />
         """, unsafe_allow_html=True)
 
         # Page Selection Radio
@@ -81,7 +81,7 @@ def main():
             index=0
         )
 
-        st.markdown("<hr style='border: 0; height: 1px; background: #374151; margin: 18px 0;' />", unsafe_allow_html=True)
+        st.markdown("<hr style='border: 0; height: 1px; background: #e2e8f0; margin: 18px 0;' />", unsafe_allow_html=True)
         st.markdown("### 🌐 Global Operational Filters")
 
         # Global Plant Filter

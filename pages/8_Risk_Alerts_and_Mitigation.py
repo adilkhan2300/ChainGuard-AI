@@ -64,12 +64,12 @@ def render_page(data_dict, filters=None):
     synthesis_text, model_badge = st.session_state["llm_synthesis"]
     st.caption(f"🧠 Synthesis Engine: **{model_badge}**")
     st.markdown(f"""
-    <div style="background: rgba(17, 24, 39, 0.8); border: 1px solid #374151; border-radius: 10px; padding: 22px; margin-bottom: 25px;">
+    <div style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 10px; padding: 22px; margin-bottom: 25px; box-shadow: 0 1px 3px rgba(0,0,0,0.05); color: #1e293b;">
         {synthesis_text}
     </div>
     """, unsafe_allow_html=True)
 
-    st.markdown("<hr style='border: 0; height: 1px; background: #374151; margin: 24px 0;' />", unsafe_allow_html=True)
+    st.markdown("<hr style='border: 0; height: 1px; background: #e2e8f0; margin: 24px 0;' />", unsafe_allow_html=True)
 
     # 2. Structured 8-Point Risk Alerts Master Feed
     st.markdown("### 🚨 Active Standardized Risk Alerts")
@@ -106,36 +106,36 @@ def render_page(data_dict, filters=None):
             
             with st.container():
                 st.markdown(f"""
-                <div style="background: #111827; border-left: 5px solid {sev_color}; border-radius: 8px; padding: 16px 20px; margin-bottom: 14px; border-top: 1px solid #1f2937; border-right: 1px solid #1f2937; border-bottom: 1px solid #1f2937;">
+                <div style="background: #ffffff; border-left: 5px solid {sev_color}; border-radius: 8px; padding: 16px 20px; margin-bottom: 14px; border-top: 1px solid #e2e8f0; border-right: 1px solid #e2e8f0; border-bottom: 1px solid #e2e8f0; box-shadow: 0 1px 3px rgba(0,0,0,0.04);">
                     <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
                         <div>
-                            <span style="font-weight: 700; font-size: 1.05rem; color: #f9fafb;">[{alt['alert_id']}] {alt['affected_entity']}</span>
-                            <span style="margin-left: 10px; font-size: 0.8rem; background: rgba(59, 130, 246, 0.2); color: #60a5fa; padding: 2px 8px; border-radius: 4px;">{alt['risk_category']}</span>
+                            <span style="font-weight: 700; font-size: 1.05rem; color: #0f172a;">[{alt['alert_id']}] {alt['affected_entity']}</span>
+                            <span style="margin-left: 10px; font-size: 0.8rem; background: #eff6ff; color: #2563eb; padding: 2px 8px; border-radius: 4px; border: 1px solid #bfdbfe;">{alt['risk_category']}</span>
                         </div>
                         <div style="font-weight: 700; color: {sev_color}; font-size: 0.9rem;">
                             SEVERITY: {sev.upper()} (Risk Index: {alt['risk_score']:.0f}/100)
                         </div>
                     </div>
-                    <div style="font-size: 0.88rem; color: #d1d5db; margin-bottom: 6px;">
+                    <div style="font-size: 0.88rem; color: #334155; margin-bottom: 6px;">
                         <strong>Supporting Evidence:</strong> {alt['supporting_evidence']}
                     </div>
-                    <div style="font-size: 0.88rem; color: #d1d5db; margin-bottom: 6px;">
+                    <div style="font-size: 0.88rem; color: #334155; margin-bottom: 6px;">
                         <strong>Expected Timing:</strong> {alt['expected_timing']} | 
-                        <strong>Financial Exposure:</strong> <span style="color: #f87171; font-weight: 600;">${alt['estimated_financial_exposure']:,.2f}</span>
+                        <strong>Financial Exposure:</strong> <span style="color: #dc2626; font-weight: 600;">${alt['estimated_financial_exposure']:,.2f}</span>
                     </div>
-                    <div style="font-size: 0.88rem; color: #d1d5db; margin-bottom: 6px;">
+                    <div style="font-size: 0.88rem; color: #334155; margin-bottom: 6px;">
                         <strong>Operational Consequences:</strong> {alt['operational_consequences']}
                     </div>
-                    <div style="font-size: 0.88rem; color: #a7f3d0; margin-bottom: 4px;">
+                    <div style="font-size: 0.88rem; color: #166534; background: #f0fdf4; padding: 6px 10px; border-radius: 6px; border: 1px solid #bbf7d0; margin-bottom: 6px;">
                         <strong>Recommended Mitigation:</strong> {alt['recommended_mitigation']}
                     </div>
-                    <div style="font-size: 0.78rem; color: #9ca3af; font-style: italic;">
+                    <div style="font-size: 0.78rem; color: #64748b; font-style: italic;">
                         <strong>Data Confidence & Limitations:</strong> {alt['data_confidence']}
                     </div>
                 </div>
                 """, unsafe_allow_html=True)
 
-    st.markdown("<hr style='border: 0; height: 1px; background: #374151; margin: 24px 0;' />", unsafe_allow_html=True)
+    st.markdown("<hr style='border: 0; height: 1px; background: #e2e8f0; margin: 24px 0;' />", unsafe_allow_html=True)
 
     # 3. Actionable Operational Mitigation Playbooks
     st.markdown("### 📋 Cross-Domain Mitigation Action Playbooks")

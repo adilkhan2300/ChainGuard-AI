@@ -149,7 +149,7 @@ def render_page(data_dict, filters=None):
 
     # Governance Notice
     st.markdown("""
-    <div style="background: rgba(31, 41, 55, 0.4); padding: 10px 14px; border-radius: 6px; font-size: 0.8rem; color: #9ca3af; margin-top: 20px;">
+    <div style="background: #f1f5f9; padding: 10px 14px; border-radius: 6px; font-size: 0.8rem; color: #475569; border: 1px solid #e2e8f0; margin-top: 20px;">
         <strong>Methodological Clarity:</strong> Production risks represent <em>material-availability risks</em> derived from current BOM consumption 
         versus verified warehouse reserves and supplier delivery commitments. They do not model intra-plant machine tool wear or maintenance breakdowns.
     </div>

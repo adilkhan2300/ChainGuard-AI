@@ -200,11 +200,11 @@ def render_page(data_dict, filters=None):
 
     # 6. Methodological Clarity Note
     st.markdown("""
-    <div style="background: rgba(31, 41, 55, 0.6); padding: 12px 16px; border-radius: 8px; border-left: 3px solid #6b7280; font-size: 0.85rem; color: #9ca3af; margin-top: 15px;">
+    <div style="background: #f1f5f9; padding: 12px 16px; border-radius: 8px; border-left: 3px solid #2563eb; font-size: 0.85rem; color: #334155; margin-top: 15px; border: 1px solid #e2e8f0;">
         <strong>Methodological Notice:</strong> Visual metrics clearly separate 
-        <span style="color: #60a5fa;"><strong>Observed Historical Records</strong></span> (PO receipts, transit records), 
-        <span style="color: #f59e0b;"><strong>Rule-Based Disruption Alerts</strong></span> (days of coverage &lt; 7, supplier OTD &lt; 75%), and 
-        <span style="color: #a78bfa;"><strong>Predictive Model Projections</strong></span> (ML arrival delay probabilities). No unverified vendor data is invented.
+        <span style="color: #2563eb;"><strong>Observed Historical Records</strong></span> (PO receipts, transit records), 
+        <span style="color: #d97706;"><strong>Rule-Based Disruption Alerts</strong></span> (days of coverage &lt; 7, supplier OTD &lt; 75%), and 
+        <span style="color: #7c3aed;"><strong>Predictive Model Projections</strong></span> (ML arrival delay probabilities). No unverified vendor data is invented.
     </div>
     """, unsafe_allow_html=True)
 
